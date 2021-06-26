@@ -1,7 +1,7 @@
     * {
         box-sizing: border-box;
         margin: auto;
-        padding: auto;
+        padding: 1px;
         font-family: 'Montserrat', sans-serif;
     }
     
@@ -49,6 +49,7 @@
     
     .menu__items {
         margin: 3px;
+        font-size: 21px
     }
     
     .menu li a {
@@ -122,15 +123,14 @@
     
     .redes-container ul li {
         display: inline-block;
-        margin: 0 5px;
+        margin: 3px;
         width: 50px;
-        height: 50 px;
+        height: 45px;
         text-align: center;
     }
     
     .redes-container ul li a {
         display: block;
-        padding: 0 10px;
         background-color: rgb(20, 18, 18);
         color: rgb(255, 255, 255);
         line-height: 50px;
@@ -148,6 +148,7 @@
         display: inline-block;
         text-align: center;
         padding: 10px;
+        font-size: 20px;
     }
     
     .enlaces li a {
@@ -303,7 +304,7 @@
         text-align: start;
         background-color: #D6D0D0;
         border-radius: 30px;
-        font-size: 1.9vw;
+        font-size: 28px;
         color: rgb(0, 0, 0);
         padding: 10px;
     }
@@ -331,6 +332,12 @@
     
     .fondo-m {
         background-image: url(../imagenes/Fondo_04.png);
+    }
+    
+    .logomerakiblanco {
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
     
     @media screen and (max-width: 1024px) {

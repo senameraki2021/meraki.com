@@ -133,7 +133,7 @@
 .conoce:hover {
     background-color: white;
     color: black;
-    transition: all 0.5s ease;
+    transition: all 1s ease;
 }
 
 @font-face {

@@ -4,7 +4,6 @@ a {
 
 .contenedor {
     max-width: 2000px;
-    margin: 50px auto;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -55,7 +54,7 @@ figure .trasera {
 
 figure .frontal {
     display: block;
-    background: rgb(241, 34, 34);
+    background: rgb(253, 252, 252);
     /* Podemos ocultar la imagen al da la vuelta si lo queremos */
     backface-visibility: hidden;
 }

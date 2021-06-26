@@ -1,7 +1,7 @@
     * {
         box-sizing: border-box;
         margin: auto;
-        padding: auto;
+        padding: 1px;
         font-family: 'Montserrat', sans-serif;
     }
     
@@ -49,6 +49,7 @@
     
     .menu__items {
         margin: 3px;
+        font-size: 21px
     }
     
     .menu li a {
@@ -147,6 +148,8 @@
         display: inline-block;
         text-align: center;
         padding: 10px;
+        margin: 3px;
+        font-size: 21px
     }
     
     .enlaces li a {
